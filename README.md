@@ -1,2 +1,4 @@
 Pasta destinada ao aprendizado de lógica de programação.
-A limguagem escolhida foi Java, já que eu já possuía uma noção de seu funcionamento.
+A linguagem escolhida foi Java, já que eu já possuía uma noção de seu funcionamento.
+Espero conseguir dominar a linguagem, seus fundamentos usos e aprimorar em áreas como desenvolvimento android.
+Obrigado.
