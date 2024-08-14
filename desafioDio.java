@@ -1,14 +1,14 @@
 public class desafioDio{
 	public static void main (String[] args){
 		
-        int xp = 5465;
-        String heroi = "Dio";
-        String nivel = "";
-        String rank [] = {"Ferro","Bronze","Prata","Ouro","Platina","Ascendente","Imortal","Radiante"};
+        int xp = 5465; //XP do herói
+        String heroi = "Dio"; //nome do herói
+        String nivel = ""; //variável para salvar o nível final do herói
+        String rank [] = {"Ferro","Bronze","Prata","Ouro","Platina","Ascendente","Imortal","Radiante"}; //vetor com o níveis de xp
 		
-        for(int i=0;i<8;i++){
+        for(int i=0;i<8;i++){ //loop para verificar se o nível bate com a quantidade de XP
             if(xp<=1000){
-                nivel = rank[0]; 
+                nivel = rank[0]; // atribuição do nível com o valor do vetor Rank
             }
             else if(xp>=1001&&xp<=2000){
                 nivel = rank[1];     
@@ -34,7 +34,7 @@ public class desafioDio{
 
         }
 
-        System.out.println("O Herói "+heroi+" está no nível: "+nivel);
+        System.out.println("O Herói "+heroi+" está no nível: "+nivel); //Impressão na tela do nome e nível do herói
         
 	}
 }
